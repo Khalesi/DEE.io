@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<style type="text/css">
+		.x
+		{
+			background-color: black;
+			width: 33%;
+			height: 500px;
+			float: right;
+		}
+		.y
+		{
+			background-color: white;
+			width: 33%;
+			height: 500px;
+			float: right;
+		}
+		.z
+		{
+			background-color: black;
+			width: 33%;
+			height:500px;
+			float: right;
+		}
+		.fm1
+		{
+			border: 2px solid black
+			border-radius:20px;
+			background-color: grey;
+			width: 60%;
+			margin-right: 20%;
+			margin-left: 20%;
+			height: 500px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="x"></div>
+	<div class="y">
+		<form class="fm1">
+			Name <br>	
+			<input type="text" name="firstname" placeholder="enter your name" required> <br>
+			Email <br>	
+			<input type="email" name="emailadress" placeholder="email address" autocomplete="on"><br>
+			Password <br>	
+			<input type="pasword" name="pasword" placeholder="pasword"><br>
+			Gender <br>
+			<input type="radio" name="Gender">Male <br>
+			<input type="radio" name="Gender" checked>female <br>
+			<input type="radio" name="Gender">other <br>
+			<textarea name="comments"></textarea><br>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+	<div class="z"></div>
+</body>
+</html>

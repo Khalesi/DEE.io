@@ -1,0 +1,48 @@
+
+table,th,td
+{
+	border: 1px groove #331f00;
+	border-collapse: collapse;
+	width: 60%;
+	padding: 20px;
+	color: #47476b;
+	border-radius: 20px;
+}
+h1
+{
+	color: #1f1f2e;
+}
+.btn1
+{
+	background-color: #99bbff;
+	color: #000000;
+	font-size: 2em;
+	width: 30%;
+	margin: 2%;
+
+}
+p
+{
+	height: 60%;
+	border: 2px groove #000000;
+	background-color: #262626;
+	float: right;
+	border-radius: 20px;
+	width: 60%;
+
+}
+.btn1:hover 
+{
+	background-color: #ffffff;
+	color: #000000;
+}
+body
+{
+	background: linear-gradient(to left,#fff9e5,#cc9900,#1a1300)
+}
+style any 4 elementsusing the following properties
+1.liner gradient
+2.three anchor tags with hover 
+3.colomn span on a table
+4.five images in a row
+5.a paragraph under the images.

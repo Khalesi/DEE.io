@@ -1,0 +1,36 @@
+table,th,td
+{
+	border: 3px groove #00004d;
+	border-collapse: collapse;
+	width: 50%;
+	padding: 10px;
+}
+.cls
+{
+	column-span: "5";
+}
+.a img
+{
+	width: 15%;
+	height: 40%;
+}
+.divp
+{
+	border: 2px groove;
+	background-color: #226600;
+}
+body
+{
+	background: linear-gradient(to left ,#a3a3c2,#666699,#14141f)
+}
+.ref
+{
+	float: right;
+	text-decoration: none;
+	color: #444422;
+	margin:2px;
+}
+.ref:hover
+{
+	
+}
